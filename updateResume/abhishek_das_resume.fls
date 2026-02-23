@@ -1,8 +1,8 @@
-PWD /Users/abhishekdas/Desktop/resume
+PWD /Users/abhishekdas/Desktop/gitProj/Resume/updateResume
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/abhishekdas/Desktop/resume/abhishek_das_resume.tex
+INPUT /Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex
 OUTPUT abhishek_das_resume.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls

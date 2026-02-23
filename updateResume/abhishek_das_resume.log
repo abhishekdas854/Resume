@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.21)  22 FEB 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.21)  23 FEB 2026 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/abhishekdas/Desktop/resume/abhishek_das_resume.tex
-(/Users/abhishekdas/Desktop/resume/abhishek_das_resume.tex
+**/Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex
+(/Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -211,30 +211,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip54
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 36.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 28.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (./abhishek_das_resume.aux)
 \openout1 = `abhishek_das_resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -284,29 +284,29 @@ LaTeX Font Info:    ... okay on input line 36.
 \makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks24
 )
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 28.
  (./abhishek_das_resume.out) (./abhishek_das_resume.out)
 \@outlinefile=\write3
 \openout3 = `abhishek_das_resume.out'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 42.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 34.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 44.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 36.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 45.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 37.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 45.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 37.
 
-Overfull \hbox (10.94443pt too wide) in paragraph at lines 51--52
+Overfull \hbox (10.94443pt too wide) in paragraph at lines 42--43
 \T1/phv/m/n/10 pipelines, and event-driven mi-croser-vices. Proven ex-per-tise in Java, Golang, and mul-ti-ple mod-ern pro-gram-ming paradigms,
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 47.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 56.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 61.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 47.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 52.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
@@ -324,18 +324,18 @@ Package rerunfilecheck Info: File `abhishek_das_resume.out' has not changed.
 (rerunfilecheck)             Checksum: 041CACC269AC41D12C1935E476A65EDF;838.
  ) 
 Here is how much of TeX's memory you used:
- 13175 strings out of 473190
- 224666 string characters out of 5715800
- 636011 words of memory out of 5000000
- 36291 multiletter control sequences out of 15000+600000
+ 13174 strings out of 473190
+ 224715 string characters out of 5715800
+ 634891 words of memory out of 5000000
+ 36290 multiletter control sequences out of 15000+600000
  584477 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,625b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,646b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on abhishek_das_resume.pdf (2 pages, 84170 bytes).
+Output written on abhishek_das_resume.pdf (2 pages, 84728 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
