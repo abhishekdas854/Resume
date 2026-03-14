@@ -1,136 +1,170 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 
 % --- Packages ---
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{helvet} 
+\usepackage[scaled]{helvet}
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage[margin=1.25cm]{geometry}
-\usepackage{xcolor}
-\usepackage{fontawesome5}
+\usepackage[margin=1.2cm]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{rulegray}{gray}{0.6}
+
+\usepackage{needspace}
+\usepackage{microtype}
+\usepackage{ragged2e}
+
+\PassOptionsToPackage{hyphens}{url}
 \usepackage[hidelinks]{hyperref}
 
-% --- Colors ---
-\definecolor{primary}{HTML}{111111}
-\definecolor{accent}{HTML}{2980B9}
+\pretolerance=1000
+\tolerance=2000
+\emergencystretch=2em
+\pagenumbering{gobble}
 
 % --- Layout Setup ---
 \setlength{\parindent}{0pt}
-\pagestyle{empty} % Removes page numbers from all pages
 
-% --- Custom Commands ---
-\titleformat{\section}
-{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{6pt}
+% --- Section Formatting ---
+\titleformat{\section}[block]
+{\large\bfseries}
+{}{0em}{\MakeUppercase}[\color{rulegray}\titlerule]
+\titlespacing{\section}{0pt}{6pt}{4pt}
 
 \begin{document}
 
 % --- HEADER ---
 \begin{center}
-    {\fontsize{22pt}{26pt}\selectfont\bfseries\color{primary} ABHISHEK DAS} \\ \vspace{4pt} 
+    {\fontsize{22pt}{24pt}\selectfont\bfseries ABHISHEK DAS}\\[7pt]
     \small
-    \faMapMarker* Bangalore, India \quad 
-    \faPhone\ +91-8240 746 116 \quad 
-    \faEnvelope\ \href{mailto:das.abhi11@gmail.com}{das.abhi11@gmail.com} \\ \vspace{2pt} 
-    \faLinkedin\ \href{https://www.linkedin.com/in/abhishek-das-10a36916a/}{linkedin.com/in/abhishek-das-10a36916a}
+    +91-8240 746 116 \quad|\quad
+    \href{mailto:das.abhi11@gmail.com}{das.abhi11@gmail.com} \quad|\quad
+    \href{https://www.linkedin.com/in/abhishek-das-10a36916a/}{linkedin.com/in/abhishek-das-10a36916a} \quad|\quad
+    \href{https://github.com/abhishekdas854}{github.com/abhishekdas854} \quad|\quad
+    Bangalore, India
 \end{center}
+\vspace{1pt}
 
 % --- SUMMARY ---
-\section{Professional Profile}
-Senior Software Engineer with nearly 6 years of experience architecting scalable backend systems, distributed data pipelines, and event-driven microservices. Proven expertise in Java, Golang, and multiple modern programming paradigms, with a strong track record of delivering high-impact solutions—from engineering real-time IoT telemetry gateways to designing complex, highly customizable compliance platforms for international enterprise markets. Adept at driving full-lifecycle product development and optimizing system performance at scale.
+\section{Summary}
+\noindent Senior Software Engineer with 6 years of experience building scalable, fault-tolerant distributed systems and event-driven microservices. Primary expertise in Java, Golang, and Kafka, with hands-on experience in PostgreSQL, Redis, and AWS. Drove backend projects end to end from system design to production across real-time IoT telemetry, enterprise compliance platforms, and high-throughput data pipelines. IIT Kanpur graduate (Minor in Computer Systems). Open to relocation.
 
 % --- EDUCATION ---
 \section{Education}
-\textbf{Indian Institute of Technology (IIT), Kanpur} \hfill 2016 -- 2020 \\ 
-\textit{Bachelor of Technology in Materials Science and Engineering \textbf{|} Minor in Computer Systems} 
-\vspace{2pt}
+\textbf{Indian Institute of Technology (IIT), Kanpur} \hfill Aug 2016 -- May 2020 \\
+Bachelor of Technology \textbar{} Major: Materials Science and Engineering \textbar{} Minor: Computer Systems
 
-% --- SKILLS ---
-\section{Technical Skills}
-\begin{itemize}[leftmargin=*, noitemsep]
-    \item \textbf{Programming Languages:} Java, Golang, C++, Python, SQL
-    \item \textbf{Frameworks \& Databases:} React.js, React Native, PostgreSQL, MongoDB, RocksDB
-    \item \textbf{Cloud \& Infrastructure:} AWS, Docker, Kafka, Redis, Git
-    \item \textbf{Web Development:} HTML, CSS, JavaScript, TypeScript
-\end{itemize}
+\vspace{4pt}
 
 % --- EXPERIENCE ---
 \section{Professional Experience}
 
-\textbf{AIDORA} \hfill Aug 2024 -- Present \\
-\textit{Senior Software Engineer, Backend | Bangalore} \\
-\textit{Eligibility and Tracking Team} \vspace{4pt}
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{Versioned Compliance Architecture:} Designed and engineered an \textbf{end-to-end monolithic backend service} to manage complex versioned datasets, ensuring accurate wage replacement and precise leave calculations for large-scale \textbf{US enterprise workforces} across diverse regional jurisdictions.
-    \item \textbf{Dynamic Policy Engine:} Collaborated closely with cross-functional engineering teams to architect and expand the core evaluation framework, designing and developing the backend logic to seamlessly support diverse \textbf{US federal and state regulations (e.g., FMLA)} and dynamically optimize leave plans for maximum compliance and operational efficiency.
-    \item \textbf{Intermittent Leave Logic:} Directed the complete system design and backend implementation for specialized medical, caregiver, and military leave scenarios, enabling employees to take \textbf{non-continuous time off} and significantly expanding the platform's core functional capabilities and overall user accessibility.
-    \item \textbf{Reduced-Schedule Tracking:} Spearheaded the end-to-end system design of a highly flexible time-tracking module to handle dynamic, shifting employee work schedules, meticulously calculating ongoing policy usage and balances against \textbf{custom, partial-day increments} to guarantee precise benefit accruals and regulatory compliance.
-    \item \textbf{Enterprise Market Expansion:} Collaborated with product and engineering teams to design and develop highly customizable leave functionality, delivering critical backend components alongside other team members to ensure a seamless deployment that directly drove the \textbf{acquisition of new US B2B enterprise customers}.
-\end{itemize}
-\vspace{8pt}
+% AIDORA
+{\Large\bfseries AIDORA} \hfill \textit{Bangalore, India}
 
-\textbf{ZOOMCAR} \hfill Nov 2021 -- Jul 2024 \\
-\textit{Software Engineer, Backend | Bangalore} \vspace{4pt}
-
-\textit{Platform Team} \vspace{2pt}
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{Two-Way Chat Communication:} Designed and delivered a real-time chat communication system \textbf{from scratch} utilizing the Sendbird Java SDK to resolve host-guest friction during vehicle handoffs, directly driving a \textbf{37\% reduction in booking cancellations}.
-    \item \textbf{Automated Voice Robocalls:} Drove the end-to-end integration of scalable text-to-speech voice alerts via the Plivo Java SDK with advanced webhook tracking to enhance user responsiveness, achieving a \textbf{20\% drop in overall cancellation rates} and improving customer satisfaction.
+\vspace{3pt}
+\noindent\textbf{Senior Software Engineer, Backend} \hfill Aug 2024 -- Present \\
+\textit{Eligibility and Tracking Team}\vspace{3pt}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}, itemsep=0pt]
+\RaggedRight
+    \item Built an \textbf{end-to-end versioned backend service} in \textbf{TypeScript and Next.js} managing leave datasets across all \textbf{50 US states} for \textbf{60+ enterprise clients}, ensuring accurate wage replacement and leave calculations across multiple regional jurisdictions.
+    \item Engineered a \textbf{config-driven policy versioning framework} that auto-selects the correct policy version per employee based on leave start date or expected due date, requiring only a benefit config and an effective date to onboard new policy versions with zero code changes, cutting onboarding time for annual US regulatory updates and reducing churn risk by \textbf{30\%}, directly improving customer retention.
+    \item Architected a \textbf{dynamic policy evaluation engine encoding 51 state-specific leave policies} across the 19 states and Washington DC that have their own paid leave laws, automating leave plan selection on top of federal baselines like FMLA and eliminating manual compliance effort for HR teams.
+    \item Delivered backend support for \textbf{Minnesota Paid Leave} (effective 2026), handling dynamic bonding duration of 8 to 12 weeks based on disability, 52 or 53-week benefit years, and a shared family and medical leave pool with a 20-week annual cap. \textbf{Won a Minnesota-based enterprise client} on the strength of this implementation.
+    \item Delivered backend support for \textbf{Delaware Paid Leave} (effective Jan 2026), handling asymmetric leave windows where parental leave allows 12 weeks per year while medical and family caregiving together allow 6 weeks per 24-month period, subject to a shared 12-week annual cap, and built employer size-based coverage tier logic to ensure correct eligibility per client from day one of the mandate.
+    \item Designed \textbf{intermittent leave logic} covering medical, caregiver, and military scenarios, enabling non-continuous time off across all 60+ enterprise clients without breaking regulatory compliance for any jurisdiction.
+    \item Built a \textbf{flexible reduced-schedule tracking module} handling partial-day increments and dynamic work schedules, eliminating manual HR calculations and ensuring precise benefit accrual across all supported jurisdictions.
 \end{itemize}
+
 \vspace{4pt}
 
-\textit{IoT Team} \vspace{2pt}
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{IoT Telemetry Gateway Engine:} Architected and deployed a robust Golang backend gateway, acting as the \textbf{lead contributor} for securely capturing and processing critical vehicle vitals and telemetry data from thousands of \textbf{IoT devices deployed across Egypt}.
-    \item \textbf{Offline Bluetooth Access:} Engineered a secure \textbf{Bluetooth Low Energy (BLE)} integration between in-car IoT hardware and the mobile application, enabling highly reliable offline vehicle locking and unlocking to ensure seamless user access in low-network environments.
-    \item \textbf{Real-Time Vitals Microservice:} Designed the event-driven architecture and developed a highly concurrent \textbf{Java and Kafka Streams} microservice to consume raw messages and seamlessly publish enriched data to dedicated car-vital topics for downstream analytics.
-    \item \textbf{Event-Driven Alerting Mechanism:} Took \textbf{full ownership} of an intelligent alerting pipeline, designing the Kafka state store integration to proactively notify operations teams of \textbf{potential vehicle theft} and security anomalies in real-time.
-    \item \textbf{Automated Data Sync Pipeline:} Managed the end-to-end lifecycle of a scalable data streaming pipeline utilizing \textbf{Golang and Kafka} to continuously synchronize the core IoT system database with updated vehicle and device configurations across the entire regional fleet.
-\end{itemize}
-\vspace{8pt}
+% ZOOMCAR
+{\Large\bfseries ZOOMCAR} \hfill \textit{Bangalore, India}
 
-\textbf{NFERENCE LABS} \hfill Aug 2020 -- Sept 2021 \\
-\textit{Software Engineer | Bangalore} \\
-\textit{InfoX Team} \vspace{4pt}
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{Information Extraction UI:} Designed and implemented the complete frontend architecture for a \textbf{React.js interface}, empowering users to easily configure advanced rules for extracting complex medical information from clinical text sentences.
-    \item \textbf{Asynchronous Job Engine:} Spearheaded the design and \textbf{end-to-end development} of a highly scalable \textbf{Golang API leveraging MapReduce} principles to rapidly execute heavy data processing jobs across massive inputs.
-    \item \textbf{Wait-Queue Optimization:} Led the architectural migration of the core wait-queue from Kafka to \textbf{RocksDB}, significantly improving the system's capacity for handling large API requests.
-    \item \textbf{Cross-Service Communication:} Owned the complete implementation of efficient \textbf{Python Flask APIs} spanning multiple microservices to securely handle requests utilizing the \textbf{Protobuf} message format.
-    \item \textbf{Automated Benchmarking:} Designed comprehensive Python automation frameworks to continuously stress-test server performance across \textbf{A100, V100, and T4 GPU clusters}, generating detailed analytical reports.
+\vspace{3pt}
+\noindent\textbf{Software Engineer, Backend -- Platform Team} \hfill Nov 2021 -- Jul 2024 \\
+\textit{Real-time Communications and Notifications}\vspace{3pt}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}, itemsep=0pt]
+\RaggedRight
+    \item Built a \textbf{real-time two-way chat system} end-to-end using Java and Redis to resolve host-guest friction during vehicle handoffs, driving a \textbf{37\% reduction in booking cancellations}.
+    \item Integrated a scalable \textbf{text-to-speech voice alert system} via Java with AWS webhook tracking, achieving a \textbf{20\% reduction in cancellation rates} across low-connectivity regions.
+    \item Designed a \textbf{multi-channel communication orchestration system} escalating across email, push notification, and robocall when prior channels go unacknowledged within a configurable time window, reducing last-minute cancellations by \textbf{15\%} and host-guest friction by \textbf{32\%}.
 \end{itemize}
-\vspace{8pt}
 
-% --- INTERNSHIP ---
-\section{Internship}
-\textbf{BOSCH-GLOBAL} \hfill May 2019 -- Jul 2019 \\
-\textit{Software Engineering Intern | Bangalore} \vspace{4pt}
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{Cross-Platform Application Development:} Designed and built responsive native applications \textbf{end-to-end} by evaluating the React.js ecosystem and seamlessly integrating \textbf{third-party components and various Google APIs}.
-    \item \textbf{Core Utility \& Tracking Features:} Owned the complete development of a robust mobile application featuring real-time location tracking via \textbf{Google API}, deep network property analysis, and multiple user-facing core utilities.
-    \item \textbf{Multi-Provider Identity Verification:} Led the integration and testing of secure \textbf{Firebase authentication} flows to comprehensively validate user credentials and manage seamless sign-ins across Mobile, Email, Facebook, GitHub, and Gmail.
+\vspace{4pt}
+\noindent\textbf{Software Engineer, Backend -- IoT Team} \hfill Nov 2021 -- Jul 2024 \\
+\textit{Vehicle Telemetry and Real-time Data Infrastructure}\vspace{3pt}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}, itemsep=0pt]
+\RaggedRight
+    \item Architected and deployed a \textbf{high-throughput Golang and AWS-backed IoT gateway} as lead contributor, capturing and processing real-time vehicle telemetry from \textbf{12,000+ devices} across the Egyptian regional fleet.
+    \item Engineered a \textbf{Bluetooth Low Energy (BLE)} integration between in-car IoT hardware and the mobile app using Java, enabling offline vehicle locking and unlocking and reducing \textbf{failed unlock attempts by 57\%}.
+    \item Designed an \textbf{event-driven Java and Kafka Streams microservice} to consume raw IoT messages and publish enriched, structured data to downstream analytics systems with PostgreSQL as the system of record, scaling throughput from \textbf{7 to 20 messages per second} as new device types were onboarded.
+    \item Built a \textbf{real-time alerting pipeline} using Kafka state stores and Redis to proactively detect vehicle theft and security anomalies, notifying operations teams with sub-second latency and under \textbf{3\% false positive rate}.
+    \item Designed a \textbf{Kafka and PostgreSQL-backed data sync pipeline} to continuously replicate vehicle and device configuration changes across 20,000+ devices, supporting a \textbf{3x growth in fleet size} with no architectural changes.
 \end{itemize}
-\vspace{8pt}
+
+\vspace{4pt}
+
+% NFERENCE LABS
+{\Large\bfseries NFERENCE LABS} \hfill \textit{Bangalore, India}
+
+\vspace{3pt}
+\noindent\textbf{Software Engineer} \hfill Aug 2020 -- Sep 2021 \\
+\textit{InfoX Team}\vspace{3pt}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}, itemsep=0pt]
+\RaggedRight
+    \item Built a \textbf{scalable async job engine} in Golang leveraging MapReduce principles to execute heavy data processing jobs across large clinical datasets, cutting average job execution time for compute-intensive clinical workflows.
+    \item Led the \textbf{architectural migration of the core wait-queue from Kafka to RocksDB}, eliminating throughput bottlenecks and significantly increasing capacity for large volumes of concurrent API requests.
+    \item Implemented \textbf{Python Flask microservice APIs} across multiple services using the Protobuf message format for efficient, type-safe inter-service communication.
+    \item Designed \textbf{automated Python benchmarking frameworks} to stress-test server performance across A100, V100, and T4 GPU clusters, enabling data-driven infrastructure decisions.
+    \item Developed the full \textbf{React.js frontend} for a medical information extraction platform, enabling non-technical users to configure complex clinical text extraction rules without engineering support.
+\end{itemize}
+
+\vspace{4pt}
+
+% BOSCH
+{\Large\bfseries BOSCH GLOBAL} \hfill \textit{Bangalore, India}
+
+\vspace{3pt}
+\noindent\textbf{Software Engineering Intern} \hfill May 2019 -- Jul 2019 \\
+\textit{Cross-Platform Mobile Development}\vspace{3pt}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}, itemsep=0pt]
+\RaggedRight
+    \item Built a \textbf{cross-platform mobile application} end-to-end using React Native and Firebase, integrating real-time location tracking via Google APIs and multi-provider authentication across Email, Facebook, GitHub, and Gmail.
+    \item Developed core utility features including network diagnostics and real-time data display, delivering a production-ready application within the internship period.
+\end{itemize}
+
+\vspace{4pt}
+
+% --- SKILLS ---
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*, noitemsep, parsep=2pt, itemsep=2pt]
+    \item \textbf{Languages:} Java, Golang, Python, C++, SQL, TypeScript
+    \item \textbf{Backend and API:} REST, gRPC, Microservices, Event-Driven Architecture, Kafka Streams, Spring Boot
+    \item \textbf{Frameworks:} Next.js, React.js, React Native, Flask
+    \item \textbf{Messaging and Infrastructure:} Apache Kafka, Docker, Kubernetes, Linux
+    \item \textbf{Databases and Caching:} PostgreSQL, MongoDB, RocksDB, Redis
+    \item \textbf{Cloud and Observability:} AWS, Git, CI/CD
+\end{itemize}
+
+% --- ACHIEVEMENTS ---
+\section{Achievements}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}, itemsep=0pt]
+    \item \textbf{Exceeds Expectations, 3 consecutive half-yearly performance cycles} at Zoomcar, recognized for consistently high-impact engineering delivery across the Platform and IoT teams over a 2.5-year tenure.
+\end{itemize}
 
 % --- PROJECTS ---
 \section{Projects}
-\textbf{Ethereum-Based Student Senate Election Platform} \hfill Jan 2019 -- Apr 2019 \\ 
-\textit{IIT Kanpur} \vspace{4pt} 
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{Blockchain Research \& Implementation:} Researched blockchain technologies, including the underlying mechanisms of Bitcoin, Ethereum, and Litecoin, deploying a \textbf{Solidity smart contract} on the Ropsten Network to securely restrict voting access to valid IITK email holders.
-\end{itemize}
-\vspace{6pt}
+\noindent\textbf{Ethereum-Based Student Senate Election Platform} \hfill \textit{Jan 2019 -- Apr 2019} \\
+Deployed a Solidity smart contract on the Ethereum Ropsten Network to build a tamper-proof student election system, restricting voting access to verified IITK email holders using on-chain identity validation.
 
-\textbf{Computational Simulation of Dislocations} \hfill Aug 2018 -- Jul 2019 \\ 
-\textit{IIT Kanpur} \vspace{4pt} 
-\begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, label={\small\textbullet}]
-    \item \textbf{Data Modeling \& Simulation:} Modeled complex diffusion phenomena in \textbf{Python}, dynamically simulating physical variations across multiple distinct time and distance parameters.
-\end{itemize}
+\vspace{4pt}
 
-% --- RELEVANT COURSEWORK ---
-\section{Relevant Coursework}
-Data Structures \& Algorithms, Operating Systems, Computer Networks, C++, Blockchain Technology \& Application, Linear Algebra, Introduction to Computing
+% --- LANGUAGES ---
+\section{Languages}
+\textbf{English:} Full Professional Proficiency \quad \textbf{Bengali:} Native
+
+\vfill
 
 \end{document}
