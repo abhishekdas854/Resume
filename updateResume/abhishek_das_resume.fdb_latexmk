@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1773513672.75034 "/Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex" "abhishek_das_resume.pdf" "abhishek_das_resume" 1773513673.33974 0
-  "/Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex" 1773513672.37739 10951 a9316a9209d8ab6a54dd2c5c9def48b3 ""
+["pdflatex"] 1773513908.55604 "/Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex" "abhishek_das_resume.pdf" "abhishek_das_resume" 1773513909.13184 0
+  "/Users/abhishekdas/Desktop/gitProj/Resume/updateResume/abhishek_das_resume.tex" 1773513908.30378 10921 66d8753edb2666e306587ecf2f7a9f9b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -74,9 +74,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1771673542 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1771673449 3345739 5e9c3554bda41e2c8ca3e89001006c0b ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "abhishek_das_resume.aux" 1773513673.294 918 3ab59928819dd9b70b649068c22eb4c9 "pdflatex"
-  "abhishek_das_resume.out" 1773513673.2944 727 1dd95e50113f4e7e6f9919dd9c98ff08 "pdflatex"
-  "abhishek_das_resume.tex" 1773513672.37739 10951 a9316a9209d8ab6a54dd2c5c9def48b3 ""
+  "abhishek_das_resume.aux" 1773513909.09141 918 3ab59928819dd9b70b649068c22eb4c9 "pdflatex"
+  "abhishek_das_resume.out" 1773513909.09182 727 1dd95e50113f4e7e6f9919dd9c98ff08 "pdflatex"
+  "abhishek_das_resume.tex" 1773513908.30378 10921 66d8753edb2666e306587ecf2f7a9f9b ""
   (generated)
   "abhishek_das_resume.aux"
   "abhishek_das_resume.log"
